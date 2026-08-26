@@ -1,0 +1,1649 @@
+Quero criar meu SITE OFICIAL PROFISSIONAL para captação de clientes.
+
+Este será meu principal site comercial, portfólio e vitrine profissional.
+
+MARCA:
+
+Cleber Pavin — Tecnologia & Desenvolvimento
+
+Posicionamento:
+
+WEB • PROGRAMAÇÃO • AUTOMAÇÃO • SISTEMAS
+
+CONTATO OFICIAL:
+
+WhatsApp / telefone:
+(11) 97055-2867
+
+Número em formato internacional para links:
+
+5511970552867
+
+==================================================
+LOCALIZAÇÃO DA LOGO OFICIAL
+==================================================
+
+Minha logo oficial já existe no computador.
+
+Localização:
+
+C:\Users\jimmy\Downloads\100627.png
+
+Nome do arquivo:
+
+100627.png
+
+IMPORTANTE:
+
+- usar ESTE arquivo como fonte oficial da marca;
+- NÃO criar outra logo;
+- NÃO gerar nova logo com IA;
+- NÃO redesenhar o símbolo CP;
+- NÃO alterar proporções;
+- NÃO descaracterizar cores;
+- NÃO sobrescrever o arquivo original;
+- NÃO apagar o arquivo da pasta Downloads.
+
+Copiar a logo para dentro do projeto e preservar o original.
+
+Sugestão:
+
+src/assets/brand/logo-original.png
+
+A partir dela, preparar apenas variantes necessárias para uso web, como:
+
+- logo completa;
+- logo compacta;
+- símbolo CP;
+- favicon;
+- imagem Open Graph.
+
+Somente criar variantes se for possível manter fidelidade total à identidade original.
+
+Se não for possível separar algum elemento com qualidade:
+usar a logo original adequadamente em vez de recriar uma versão aproximada.
+
+==================================================
+IDENTIDADE DA MARCA
+==================================================
+
+A logo possui:
+
+- símbolo/monograma CP;
+- predominância de azul;
+- azul elétrico;
+- azul profundo;
+- gradiente azul;
+- elementos tecnológicos/circuitos;
+- fundo muito escuro;
+- nome CLÉBER PAVIN;
+- TECNOLOGIA & DESENVOLVIMENTO;
+- WEB • PROGRAMAÇÃO • AUTOMAÇÃO • SISTEMAS.
+
+A logo é a BASE VISUAL REAL deste projeto.
+
+O site deve nascer a partir dela.
+
+Quando alguém visualizar:
+
+LOGO + SITE
+
+precisa perceber imediatamente que tudo pertence à mesma marca.
+
+==================================================
+REGRA PRINCIPAL
+==================================================
+
+Este é o meu SITE PRINCIPAL.
+
+Ele precisa ser o projeto visualmente mais forte e mais bem acabado do meu portfólio.
+
+Quero que um potencial cliente entre no site e pense:
+
+“Se o próprio site dele é desse nível, esse cara sabe o que está fazendo.”
+
+O próprio site deve funcionar como prova da minha capacidade.
+
+Não quero aparência:
+
+- escolar;
+- iniciante;
+- genérica;
+- de template pronto;
+- de freelancer improvisado;
+- de tema comprado;
+- de site criado às pressas.
+
+Quero:
+
+- acabamento impecável;
+- organização extremamente profissional;
+- identidade forte;
+- excelente hierarquia;
+- ótima experiência;
+- alto valor percebido;
+- sensação de empresa de tecnologia profissional;
+- apresentação impecável no celular e desktop.
+
+==================================================
+OBJETIVO DO SITE
+==================================================
+
+O site deve:
+
+- captar clientes;
+- gerar pedidos de orçamento;
+- apresentar meus serviços;
+- apresentar meus projetos;
+- mostrar minha capacidade técnica;
+- organizar soluções por segmento;
+- organizar serviços por faixa de preço;
+- demonstrar profissionalismo;
+- transmitir confiança;
+- facilitar contato;
+- funcionar como meu principal portfólio;
+- ajudar a vender rapidamente.
+
+Não quero me posicionar apenas como:
+
+“criador de sites”.
+
+Quero me posicionar como profissional de:
+
+- desenvolvimento web;
+- sistemas;
+- programação;
+- automações;
+- soluções digitais;
+- e-commerce;
+- gestão.
+
+==================================================
+CONTATO E REDES SOCIAIS
+==================================================
+
+Nesta fase eu NÃO possuo redes sociais profissionais para divulgar.
+
+Portanto:
+
+NÃO adicionar:
+
+- Instagram;
+- Facebook;
+- LinkedIn;
+- TikTok;
+- X/Twitter;
+- YouTube;
+- ícones de redes sociais;
+- links vazios;
+- placeholders como “@seuinstagram”.
+
+NÃO deixar espaço visual reservado para redes inexistentes.
+
+Meu contato principal nesta fase é:
+
+WhatsApp / telefone:
+(11) 97055-2867
+
+Usar esse contato em todos os locais onde fizer sentido.
+
+Para links do WhatsApp usar:
+
+5511970552867
+
+com URL e mensagem corretamente codificadas.
+
+==================================================
+POSICIONAMENTO COMERCIAL
+==================================================
+
+A comunicação deve mostrar que desenvolvo soluções para:
+
+- profissionalizar negócios;
+- melhorar presença digital;
+- organizar operações;
+- gerar vendas;
+- facilitar atendimento;
+- automatizar processos;
+- melhorar experiência do cliente.
+
+Pode trabalhar uma headline na direção de:
+
+“Sites, sistemas e soluções digitais para profissionalizar, organizar e vender mais.”
+
+Mas NÃO precisa usar exatamente essa frase.
+
+Quero uma headline:
+
+- própria;
+- curta;
+- forte;
+- comercial;
+- fácil de entender.
+
+Evitar frases genéricas como:
+
+“Transformando ideias em soluções digitais.”
+
+==================================================
+DIREÇÃO VISUAL
+==================================================
+
+Usar minha logo como inspiração principal.
+
+Paleta sugerida:
+
+- preto;
+- azul-preto;
+- azul profundo;
+- azul elétrico;
+- branco;
+- cinza frio.
+
+Pode utilizar gradientes derivados do azul da logo.
+
+Pode usar:
+
+- grids discretos;
+- linhas inspiradas em circuitos;
+- elementos geométricos;
+- detalhes técnicos;
+- brilhos suaves;
+- profundidade;
+- iluminação azul controlada;
+- mockups;
+- screenshots;
+- composição editorial;
+- fundos sofisticados.
+
+Mas NÃO transformar o site em:
+
+- site gamer;
+- hacker;
+- Matrix;
+- cyberpunk exagerado;
+- terminal;
+- código verde;
+- festival de neon;
+- painel de nave espacial;
+- excesso de glassmorphism.
+
+Quero estética:
+
+TECNOLÓGICA
+PREMIUM
+SÓBRIA
+MODERNA
+CONFIÁVEL
+COMERCIAL
+
+O site precisa impressionar empresário comum, não apenas pessoas da área de tecnologia.
+
+==================================================
+REGRA DE QUALIDADE
+==================================================
+
+Este projeto NÃO é para ser feito correndo.
+
+Prioridades:
+
+1. funcionamento
+2. impacto visual
+3. acabamento
+4. conversão
+5. organização
+6. mobile
+7. acessibilidade
+8. performance
+9. manutenção
+10. economia de contexto
+
+IMPORTANTE:
+
+Economizar Codex NÃO significa reduzir qualidade.
+
+Economizar significa:
+
+- não reler arquivos sem necessidade;
+- evitar retrabalho;
+- não refatorar código saudável;
+- agrupar alterações;
+- não repetir testes inutilmente;
+- evitar documentação excessiva.
+
+Se precisar gastar mais contexto para entregar um site realmente excelente:
+
+FAÇA.
+
+==================================================
+ARQUITETURA
+==================================================
+
+Quero um SITE MULTIPÁGINA.
+
+Não colocar tudo em uma Home enorme.
+
+Criar arquitetura organizada.
+
+Sugestão:
+
+/
+Home
+
+/projetos
+Portfólio completo
+
+/servicos
+Serviços e preços
+
+/segmentos
+Soluções por segmento
+
+/projetos/:slug
+Página individual de projeto
+
+/sobre
+Apresentação profissional
+
+/orcamento
+Solicitação de orçamento
+
+Pode adaptar a arquitetura se encontrar solução melhor.
+
+==================================================
+HEADER
+==================================================
+
+Criar Header profissional com:
+
+- logo oficial;
+- Projetos;
+- Serviços;
+- Segmentos;
+- Sobre;
+- botão “Solicitar orçamento”.
+
+Pode ser sticky se melhorar UX.
+
+No desktop:
+limpo, sofisticado e bem espaçado.
+
+No mobile:
+menu muito bem resolvido.
+
+A logo não pode ficar:
+
+- pequena demais;
+- deformada;
+- apertada;
+- ilegível.
+
+==================================================
+HERO
+==================================================
+
+O Hero é CRÍTICO.
+
+Precisa causar impacto em poucos segundos.
+
+Criar:
+
+- headline forte;
+- subtítulo comercial;
+- CTA principal;
+- CTA secundário;
+- composição visual premium.
+
+CTA principal:
+
+Solicitar orçamento
+
+CTA secundário:
+
+Ver projetos
+
+Não quero Hero genérico de:
+
+texto à esquerda + imagem aleatória à direita.
+
+Pode usar:
+
+- símbolo CP;
+- screenshots reais;
+- mockups;
+- interfaces;
+- dispositivos;
+- linhas técnicas;
+- composição assimétrica;
+- camadas;
+- profundidade.
+
+Mas sempre mantendo elegância.
+
+==================================================
+PROVA IMEDIATA
+==================================================
+
+Logo após o Hero, deixar claro o que desenvolvo.
+
+Mostrar soluções como:
+
+- Sites profissionais
+- Catálogos digitais
+- Sistemas
+- Agendamentos
+- Gestão
+- Painéis administrativos
+- Automações
+- E-commerce
+- Soluções personalizadas
+
+Não apresentar apenas uma sequência genérica de cards iguais.
+
+==================================================
+PROJETOS EXISTENTES
+==================================================
+
+Usar projetos reais já criados e aprovados quando estiverem disponíveis.
+
+Projetos que podem ser usados:
+
+- Mini Vitrine — R$ 100
+- Vitrine Básica — R$ 200
+- Catálogo Inicial — R$ 300
+- Sistema de Agendamento Universal Essencial
+- Studio Lumina
+- Clínica Vitta
+- NOVA Imports
+- Barber Noir System, somente se estiver adequado para demonstração pública.
+
+IMPORTANTE:
+
+NÃO inventar funcionalidades.
+
+NÃO afirmar que projeto possui algo que não possui.
+
+NÃO criar screenshots falsas.
+
+Usar screenshots REAIS sempre que possível.
+
+==================================================
+PROJETOS EM DESTAQUE
+==================================================
+
+Na Home mostrar os projetos visualmente mais fortes.
+
+Cada projeto pode apresentar:
+
+- screenshot;
+- nome;
+- segmento;
+- categoria;
+- breve explicação;
+- principais recursos;
+- CTA “Ver projeto”;
+- CTA “Abrir demonstração”, se existir URL pública.
+
+Quero apresentação premium.
+
+Não quero miniaturas pequenas jogadas em grid genérico.
+
+==================================================
+PÁGINA DE PORTFÓLIO
+==================================================
+
+Criar:
+
+/projetos
+
+Organizar os projetos de maneira clara.
+
+Pode usar filtros front-end simples:
+
+- Todos
+- Sites
+- Catálogos
+- Agendamento
+- Sistemas
+- Gestão
+- E-commerce
+
+Não criar sistema complexo.
+
+Cada projeto deve parecer um CASE profissional.
+
+==================================================
+PÁGINA INDIVIDUAL DE PROJETO
+==================================================
+
+Para projetos importantes criar:
+
+/projetos/:slug
+
+Estrutura sugerida:
+
+- capa;
+- nome;
+- segmento;
+- categoria;
+- objetivo;
+- problema;
+- solução;
+- recursos;
+- screenshots;
+- desktop;
+- mobile;
+- tecnologias, quando relevante;
+- demonstração;
+- CTA para orçamento.
+
+CTA:
+
+“Quero um projeto parecido”
+
+ou alternativa comercial melhor.
+
+Não transformar página em documentação técnica.
+
+==================================================
+SERVIÇOS
+==================================================
+
+Criar:
+
+/servicos
+
+Organizar em categorias.
+
+SITES
+
+- institucional;
+- landing page;
+- catálogo;
+- vitrine;
+- portfólio.
+
+SISTEMAS
+
+- agendamento;
+- gestão;
+- CRM;
+- painel financeiro;
+- ordem de serviço;
+- área do cliente;
+- soluções personalizadas.
+
+AUTOMAÇÕES
+
+- fluxos;
+- integrações;
+- atendimento;
+- processos comerciais.
+
+E-COMMERCE
+
+- catálogo;
+- carrinho;
+- checkout;
+- pagamentos;
+- gestão.
+
+Não prometer integrações específicas sem avaliação técnica.
+
+==================================================
+ORGANIZAÇÃO POR PREÇO
+==================================================
+
+Quero preços extremamente fáceis de entender.
+
+O cliente deve perceber claramente a evolução entre os níveis.
+
+==================================================
+PLANOS DE ENTRADA
+==================================================
+
+MINI VITRINE — R$ 100
+
+- 1 página;
+- até 5 produtos;
+- imagem;
+- nome;
+- preço;
+- WhatsApp;
+- contato.
+
+--------------------------------------------------
+
+VITRINE BÁSICA — R$ 200
+
+- até 10 produtos;
+- descrições curtas;
+- categorias simples;
+- WhatsApp por produto;
+- responsivo.
+
+--------------------------------------------------
+
+CATÁLOGO INICIAL — R$ 300
+
+- até 15 produtos;
+- Home mais trabalhada;
+- categorias;
+- destaques;
+- promoções visuais;
+- acabamento superior.
+
+--------------------------------------------------
+
+CATÁLOGO ECONÔMICO — R$ 400
+
+- até 20 produtos;
+- identidade personalizada;
+- fotos;
+- preços;
+- descrições;
+- categorias;
+- WhatsApp por produto;
+- informações completas da loja.
+
+--------------------------------------------------
+
+CATÁLOGO PLUS — R$ 500
+
+- até 40 produtos;
+- catálogo organizado;
+- página individual de produto;
+- categorias;
+- destaques;
+- promoções;
+- acabamento mais refinado.
+
+==================================================
+PLANOS PRINCIPAIS
+==================================================
+
+ESSENCIAL — A PARTIR DE R$ 600
+
+- até 40 produtos;
+- fotos;
+- preços;
+- descrições;
+- categorias;
+- WhatsApp;
+- responsivo.
+
+--------------------------------------------------
+
+PROFISSIONAL — A PARTIR DE R$ 900
+
+- tudo do Essencial;
+- busca;
+- filtros;
+- destaques;
+- promoções.
+
+--------------------------------------------------
+
+COMPLETO — A PARTIR DE R$ 1.400
+
+- tudo do Profissional;
+- painel administrativo;
+- gerenciamento de produtos;
+- preços;
+- fotos;
+- categorias;
+- informações da loja.
+
+--------------------------------------------------
+
+AVANÇADO — A PARTIR DE R$ 2.000
+
+- tudo do Completo;
+- estoque;
+- pedidos;
+- clientes;
+- cupons;
+- status;
+- relatórios.
+
+--------------------------------------------------
+
+PREMIUM / E-COMMERCE — A PARTIR DE R$ 2.800
+
+- tudo anterior;
+- carrinho;
+- checkout;
+- Pix/cartão;
+- frete;
+- endereço;
+- gestão completa.
+
+==================================================
+REGRA DOS PREÇOS
+==================================================
+
+Não apresentar como tabela engessada.
+
+Deixar claro que os valores podem variar conforme:
+
+- quantidade de produtos;
+- funcionalidades;
+- personalização;
+- integrações;
+- complexidade.
+
+Usar:
+
+“A partir de”
+
+quando aplicável.
+
+==================================================
+HOSPEDAGEM
+==================================================
+
+Informar de maneira simples:
+
+- primeiro ano de hospedagem incluso quando aplicável;
+- após o primeiro ano ocorre renovação anual;
+- hospedagem preferencialmente no nome do cliente;
+- domínio pode possuir custo separado;
+- condições finais dependem do projeto.
+
+Não transformar em texto jurídico.
+
+==================================================
+SEGMENTOS
+==================================================
+
+Criar:
+
+/segmentos
+
+Quero que o visitante encontre rapidamente o tipo do próprio negócio.
+
+BARBEARIAS
+
+Possíveis soluções:
+
+- site;
+- serviços;
+- barbeiros;
+- agendamento;
+- gestão;
+- comissão.
+
+--------------------------------------------------
+
+SALÕES / ESTÉTICA
+
+- site;
+- procedimentos;
+- profissionais;
+- agendamento;
+- clientes;
+- gestão.
+
+--------------------------------------------------
+
+LASH / MANICURE
+
+- apresentação;
+- serviços;
+- agenda;
+- portfólio;
+- WhatsApp.
+
+--------------------------------------------------
+
+LANCHONETES / RESTAURANTES
+
+- cardápio;
+- catálogo;
+- pedidos;
+- WhatsApp;
+- delivery.
+
+--------------------------------------------------
+
+LOJAS
+
+- catálogo;
+- produtos;
+- filtros;
+- WhatsApp;
+- e-commerce.
+
+--------------------------------------------------
+
+PERFUMES / COSMÉTICOS
+
+- vitrine;
+- catálogo;
+- categorias;
+- promoções;
+- pedidos.
+
+--------------------------------------------------
+
+OFICINAS
+
+- site;
+- orçamento;
+- ordem de serviço;
+- acompanhamento;
+- clientes.
+
+--------------------------------------------------
+
+ASSISTÊNCIAS TÉCNICAS
+
+- ordem de serviço;
+- status;
+- orçamento;
+- área do cliente;
+- atendimento.
+
+--------------------------------------------------
+
+AUTÔNOMOS
+
+- site;
+- agendamento;
+- orçamento;
+- financeiro;
+- CRM;
+- leads.
+
+--------------------------------------------------
+
+CLÍNICAS
+
+- site;
+- procedimentos;
+- profissionais;
+- agendamento.
+
+--------------------------------------------------
+
+ACADEMIAS / PERSONAL
+
+- site;
+- planos;
+- agenda;
+- clientes.
+
+Pode adicionar outros segmentos coerentes.
+
+IMPORTANTE:
+
+Apresentar como SOLUÇÕES POSSÍVEIS.
+
+Não fingir que possuo projeto pronto para tudo.
+
+==================================================
+SOBRE
+==================================================
+
+Criar:
+
+/sobre
+
+Nome:
+
+Cleber Pavin
+
+Marca:
+
+Tecnologia & Desenvolvimento
+
+Criar apresentação humana e profissional.
+
+Pode mencionar:
+
+- desenvolvimento web;
+- sistemas;
+- automações;
+- soluções digitais;
+- foco em pequenos e médios negócios;
+- experiência com atendimento e vendas online;
+- preocupação com usabilidade;
+- acabamento;
+- personalização.
+
+Não inventar:
+
+- anos de mercado;
+- quantidade de clientes;
+- prêmios;
+- certificações;
+- faturamento;
+- grandes empresas atendidas.
+
+Não incluir informações pessoais desnecessárias.
+
+==================================================
+ORÇAMENTO
+==================================================
+
+Criar:
+
+/orcamento
+
+Campos:
+
+- nome;
+- empresa;
+- WhatsApp;
+- segmento;
+- tipo de projeto;
+- quantidade aproximada de produtos/serviços;
+- funcionalidades desejadas;
+- possui identidade visual?;
+- possui domínio?;
+- descrição do projeto;
+- faixa aproximada de investimento, opcional.
+
+Nesta fase:
+
+SEM BACKEND.
+
+Ao enviar:
+montar uma mensagem organizada para o meu WhatsApp:
+
+5511970552867
+
+A mensagem deve trazer os dados preenchidos de maneira legível.
+
+==================================================
+WHATSAPP / CONTATO
+==================================================
+
+Meu contato oficial é:
+
+(11) 97055-2867
+
+Formato para links:
+
+5511970552867
+
+Este deve ser o principal canal de conversão do site.
+
+Criar CTA em:
+
+- Header;
+- Hero;
+- projetos;
+- planos;
+- serviços;
+- orçamento;
+- CTA final.
+
+Também criar botão flutuante.
+
+Usar símbolo reconhecível do WhatsApp.
+
+NÃO usar ícone genérico de telefone no botão de WhatsApp.
+
+Pode exibir o número de contato em locais como:
+
+- página Sobre;
+- página Contato/Orçamento;
+- footer;
+- seção final de conversão.
+
+==================================================
+CTAS
+==================================================
+
+Usar CTAs específicos.
+
+Exemplos:
+
+- Solicitar orçamento
+- Ver projetos
+- Quero um projeto assim
+- Abrir demonstração
+- Conhecer os planos
+- Falar sobre meu projeto
+- Chamar no WhatsApp
+
+Evitar:
+
+- Clique aqui
+- Saiba mais
+
+quando existir alternativa melhor.
+
+==================================================
+FOOTER
+==================================================
+
+Criar footer profissional com:
+
+- logo/marca;
+- navegação principal;
+- serviços principais;
+- contato:
+  (11) 97055-2867
+- WhatsApp;
+- assinatura da marca;
+- direitos autorais.
+
+NÃO criar área de redes sociais.
+
+NÃO colocar ícones de redes inexistentes.
+
+==================================================
+PROVA SOCIAL
+==================================================
+
+NÃO inventar depoimentos.
+
+NÃO inventar:
+
+- avaliações;
+- estrelas;
+- número de clientes;
+- porcentagem de satisfação;
+- empresas atendidas;
+- resultados financeiros.
+
+Prefiro usar meus projetos reais como prova de capacidade.
+
+Se futuramente houver depoimentos reais:
+a arquitetura pode permitir inclusão posterior.
+
+==================================================
+DESIGN GERAL
+==================================================
+
+Não quero seção após seção formada apenas por cards idênticos.
+
+Criar ritmo visual.
+
+Alternar:
+
+- grandes screenshots;
+- cases;
+- composição editorial;
+- textos;
+- cards;
+- faixas;
+- grids;
+- mockups;
+- elementos da identidade;
+- destaques.
+
+Evitar repetição.
+
+O site precisa parecer desenvolvido especificamente para Cleber Pavin — Tecnologia & Desenvolvimento.
+
+==================================================
+MICROINTERAÇÕES
+==================================================
+
+Pode adicionar:
+
+- hover;
+- transições;
+- entrada suave;
+- feedback visual;
+- estados de botão;
+- destaque de projeto;
+- pequenas animações de navegação.
+
+Tudo de forma controlada.
+
+Respeitar:
+
+prefers-reduced-motion.
+
+Nada pesado ou exagerado.
+
+==================================================
+RESPONSIVIDADE
+==================================================
+
+MOBILE É PRIORIDADE.
+
+Boa parte dos potenciais clientes pode chegar através de links enviados diretamente pelo WhatsApp.
+
+Validar:
+
+360 px
+390 px
+430 px
+768 px
+1024 px
+1366 px
+
+Não apenas reduzir desktop.
+
+Adaptar:
+
+- Hero;
+- logo;
+- Header;
+- menu;
+- projetos;
+- preços;
+- screenshots;
+- grids;
+- formulários;
+- CTAs;
+- footer.
+
+ZERO overflow horizontal.
+
+==================================================
+PERFORMANCE
+==================================================
+
+O site deve ser visualmente forte sem ficar pesado.
+
+Otimizar:
+
+- logo;
+- screenshots;
+- imagens;
+- SVGs;
+- fontes;
+- assets.
+
+Usar lazy loading quando adequado.
+
+Não instalar bibliotecas grandes sem benefício real.
+
+==================================================
+SEO
+==================================================
+
+Configurar:
+
+- title;
+- meta description;
+- favicon;
+- Open Graph;
+- headings;
+- semântica;
+- URLs amigáveis;
+- estrutura adequada para indexação.
+
+O compartilhamento do site pelo WhatsApp precisa ficar bonito.
+
+A imagem Open Graph deve usar minha identidade visual oficial.
+
+==================================================
+FAVICON
+==================================================
+
+Criar favicon baseado no símbolo CP da minha logo oficial.
+
+Não criar favicon aleatório.
+
+Se tecnicamente possível:
+
+public/favicon.svg
+
+ou formato mais apropriado.
+
+Precisa ser reconhecível em tamanho pequeno.
+
+==================================================
+ACESSIBILIDADE
+==================================================
+
+Implementar:
+
+- skip link;
+- foco visível;
+- navegação por teclado;
+- alt text;
+- contraste;
+- semântica;
+- nomes acessíveis;
+- labels;
+- reduced motion;
+- hover/focus adequados.
+
+==================================================
+WHITE-LABEL / CONFIGURAÇÃO
+==================================================
+
+Centralizar os dados comerciais.
+
+Preferencialmente:
+
+src/config.ts
+
+ou arquitetura equivalente melhor.
+
+Centralizar:
+
+- nome;
+- marca;
+- logo;
+- telefone;
+- WhatsApp;
+- preços;
+- planos;
+- segmentos;
+- projetos;
+- serviços;
+- URLs.
+
+Contato oficial:
+
+display:
+(11) 97055-2867
+
+WhatsApp:
+5511970552867
+
+Não espalhar essas informações pelo código.
+
+==================================================
+STACK
+==================================================
+
+Preferência:
+
+React
+TypeScript
+Vite
+
+CSS bem organizado.
+
+Pode usar biblioteca leve se existir ganho real.
+
+Não instalar dependência apenas porque é popular.
+
+==================================================
+AGENTS.MD
+==================================================
+
+Criar:
+
+AGENTS.md
+
+na raiz do projeto.
+
+Incluir regras:
+
+- economizar contexto sem perder qualidade;
+- analisar apenas arquivos relevantes;
+- alterações mínimas necessárias;
+- preservar funcionalidades;
+- não refatorar sem motivo;
+- priorizar acabamento visual;
+- mobile obrigatório;
+- acessibilidade;
+- não inventar informações;
+- preservar logo oficial;
+- não redesenhar marca;
+- preservar prompt.txt;
+- não criar redes sociais inexistentes;
+- usar somente o contato oficial fornecido;
+- não aumentar escopo;
+- não publicar sem autorização;
+- não fazer commit final sem aprovação;
+- deixar localhost ativo.
+
+==================================================
+PROMPT.TXT
+==================================================
+
+Criar:
+
+prompt.txt
+
+na raiz.
+
+Preservar o escopo deste projeto.
+
+Não apagar.
+
+Não tratar como arquivo órfão.
+
+Não remover durante limpeza.
+
+==================================================
+LOCALHOST
+==================================================
+
+ASSIM QUE HOUVER APLICAÇÃO EXECUTÁVEL:
+
+rodar:
+
+npm.cmd run dev
+
+Manter o servidor funcionando durante o desenvolvimento.
+
+Se já estiver ativo:
+reutilizar.
+
+NÃO encerrar ao terminar.
+
+No relatório final informar:
+
+LOCALHOST ATIVO: sim/não
+URL LOCAL: endereço exato
+
+==================================================
+SIMPLE BROWSER DO VS CODE
+==================================================
+
+Quando existir uma versão visual:
+
+tentar abrir:
+
+Simple Browser: Show
+
+e carregar a URL local.
+
+Quero conseguir acompanhar o projeto dentro do VS Code.
+
+Se o ambiente não permitir:
+
+não gastar tempo/contexto tentando repetidamente.
+
+Informar:
+
+SIMPLE BROWSER ABERTO: sim/não
+
+e fornecer a URL local.
+
+==================================================
+SCREENSHOTS DOS PROJETOS
+==================================================
+
+Usar screenshots reais dos meus projetos existentes quando estiverem disponíveis.
+
+Antes de usar:
+
+- verificar qualidade;
+- enquadramento;
+- legibilidade;
+- proporção;
+- otimização.
+
+Não cortar partes importantes.
+
+Pode criar mockups com screenshots reais.
+
+NÃO criar telas falsas de sistemas inexistentes.
+
+==================================================
+IMAGENS GERADAS
+==================================================
+
+Pode gerar elementos complementares se houver ganho real:
+
+- backgrounds;
+- formas abstratas;
+- elementos tecnológicos;
+- detalhes de composição;
+- mockups auxiliares.
+
+Mas:
+
+NÃO gerar outra logo.
+NÃO substituir minha identidade oficial.
+
+==================================================
+ECONOMIA DE CODEX
+==================================================
+
+Poupar créditos/contexto SEM perder qualidade.
+
+Evitar:
+
+- reler todos os arquivos várias vezes;
+- refatorar por preferência;
+- repetir testes completos após mudança mínima;
+- documentação desnecessariamente grande;
+- alterações aleatórias;
+- retrabalho.
+
+Agrupar alterações relacionadas.
+
+Reutilizar padrões técnicos quando fizer sentido.
+
+NÃO reutilizar identidade visual dos projetos anteriores.
+
+==================================================
+VALIDAÇÃO DURANTE DESENVOLVIMENTO
+==================================================
+
+Validar visualmente durante o trabalho.
+
+Não esperar o final para descobrir:
+
+- overflow;
+- Hero ruim;
+- mobile quebrado;
+- logo pequena;
+- texto cortado;
+- cards desalinhados;
+- botão sem contraste;
+- espaços vazios estranhos;
+- inconsistência visual.
+
+==================================================
+VALIDAÇÃO FINAL
+==================================================
+
+Antes de me entregar:
+
+revisar TODAS as páginas.
+
+Validar:
+
+- logo;
+- Header;
+- Hero;
+- Home;
+- Projetos;
+- cases;
+- Serviços;
+- Segmentos;
+- Sobre;
+- Orçamento;
+- planos;
+- preços;
+- contato;
+- WhatsApp;
+- botão flutuante;
+- formulário;
+- favicon;
+- Open Graph;
+- screenshots;
+- mobile;
+- desktop;
+- acessibilidade;
+- navegação;
+- rotas;
+- links;
+- imagens;
+- console;
+- erros HTTP;
+- runtime;
+- overflow;
+- textos cortados.
+
+Confirmar também:
+
+- nenhuma rede social inexistente foi adicionada;
+- nenhum placeholder de rede social existe;
+- o número exibido é:
+  (11) 97055-2867
+- os links usam:
+  5511970552867
+
+Executar:
+
+npm.cmd run typecheck
+npm.cmd run lint
+npm.cmd run build
+npm.cmd audit
+
+Se EXISTIR script de testes:
+executar.
+
+Se NÃO existir:
+NÃO criar testes artificiais somente para preencher checklist.
+
+==================================================
+REVISÃO VISUAL CRÍTICA
+==================================================
+
+Antes de finalizar a primeira versão:
+
+analise o site como potencial CLIENTE.
+
+Pergunte:
+
+1. A marca parece profissional?
+
+2. A logo está integrada ou simplesmente colocada na página?
+
+3. Site e logo parecem pertencer à mesma empresa?
+
+4. Os primeiros 5 segundos causam impacto?
+
+5. Fica claro o que Cleber vende?
+
+6. Está fácil entender preços e progressão dos planos?
+
+7. Está fácil encontrar solução pelo segmento?
+
+8. Os projetos parecem profissionais?
+
+9. Os projetos reais estão sendo valorizados?
+
+10. Está fácil solicitar orçamento?
+
+11. O contato está visível sem ser repetitivo?
+
+12. O WhatsApp funciona corretamente?
+
+13. O mobile mantém o nível do desktop?
+
+14. Existe alguma parte com aparência de template?
+
+15. Existe alguma seção genérica?
+
+16. Existe alguma parte com aparência escolar?
+
+17. Existe qualquer detalhe que reduza a percepção de qualidade?
+
+18. Existe espaço ou ícone de rede social que não deveria existir?
+
+Corrigir problemas REAIS.
+
+Não continuar alterando apenas para gerar trabalho.
+
+==================================================
+NÃO IMPLEMENTAR AGORA
+==================================================
+
+Não criar painel administrativo.
+
+Não criar:
+
+- backend sem necessidade;
+- banco;
+- Supabase;
+- Firebase;
+- login;
+- CMS;
+- pagamento;
+- checkout;
+- área do cliente;
+- CRM;
+- automações reais.
+
+Nesta fase quero o SITE COMERCIAL impecável.
+
+==================================================
+GIT / GITHUB / PUBLICAÇÃO
+==================================================
+
+NESTA PRIMEIRA ETAPA:
+
+NÃO fazer commit final.
+NÃO criar GitHub.
+NÃO fazer push.
+NÃO publicar.
+NÃO fazer deploy.
+
+Primeiro quero revisar o projeto no localhost.
+
+Depois da minha aprovação faremos uma etapa separada para:
+
+- auditoria final;
+- correções finais;
+- Git;
+- GitHub;
+- Cloudflare;
+- domínio;
+- validação online;
+- screenshots oficiais.
+
+==================================================
+RELATÓRIO FINAL
+==================================================
+
+Quando terminar esta primeira versão informar objetivamente:
+
+- pasta criada;
+- arquitetura;
+- páginas;
+- identidade visual;
+- como a logo foi integrada;
+- localização da cópia da logo;
+- variantes da logo;
+- favicon;
+- paleta;
+- Hero;
+- projetos exibidos;
+- cases;
+- preços;
+- planos;
+- segmentos;
+- serviços;
+- Sobre;
+- orçamento;
+- contato utilizado;
+- WhatsApp;
+- redes sociais adicionadas: deve ser NÃO;
+- SEO;
+- Open Graph;
+- responsividade;
+- acessibilidade;
+- performance;
+- screenshots utilizadas;
+- elementos gerados;
+- config centralizada;
+- prompt.txt;
+- AGENTS.md;
+- typecheck;
+- lint;
+- build;
+- testes, se houver;
+- npm audit;
+- console;
+- erros HTTP;
+- problemas encontrados;
+- pendências reais;
+- LOCALHOST ATIVO;
+- URL LOCAL;
+- SIMPLE BROWSER ABERTO;
+- pronto para revisão visual: sim/não.
+
+Depois do relatório:
+
+NÃO continuar modificando.
+
+Aguardar minha revisão visual.
