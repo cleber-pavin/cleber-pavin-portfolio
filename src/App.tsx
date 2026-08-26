@@ -249,15 +249,14 @@ function Home() {
         <div className="hero-grid-bg" />
         <div className="container hero-grid">
           <div className="hero-copy">
-            <Eyebrow>Estratégia, design e desenvolvimento</Eyebrow>
+            <Eyebrow>Cleber Pavin • Sites, sistemas e automação</Eyebrow>
             <h1>
-              Tecnologia para seu negócio <span>funcionar melhor</span> e vender
-              mais.
+              Tecnologia para negócios que precisam <span>vender melhor</span> e
+              operar com mais clareza.
             </h1>
             <p>
-              Sites, sistemas e soluções digitais criados para profissionalizar
-              sua presença, organizar sua operação e facilitar cada novo
-              contato.
+              Desenvolvimento de sites, sistemas e automações para empresas que
+              querem profissionalizar a presença digital e organizar a operação.
             </p>
             <div className="hero-actions">
               <PrimaryLink to="/orcamento">Solicitar orçamento</PrimaryLink>
@@ -280,7 +279,7 @@ function Home() {
       </section>
       <section className="solution-strip" aria-label="Soluções">
         <div className="container">
-          <p>O que posso desenvolver</p>
+          <p>Soluções que entrego para negócios</p>
           <div>
             {solutions.map((item, i) => (
               <span key={item}>
@@ -297,10 +296,10 @@ function Home() {
             eyebrow="Projetos selecionados"
             title={
               <>
-                Trabalho que demonstra <span>capacidade na prática.</span>
+                Soluções pensadas para <span>problemas reais.</span>
               </>
             }
-            text="Cada solução parte do contexto do negócio — sem fórmulas prontas, excessos ou promessas vazias."
+            text="Cada projeto começa pelo contexto do negócio: objetivo, operação e ponto de atrito. Sem solução genérica e sem excesso de destaque visual."
           />
           <div className="featured-projects">
             {projects
@@ -369,8 +368,9 @@ function Home() {
               }
             />
             <p>
-              Eu conecto apresentação, experiência e tecnologia para entregar
-              uma solução clara para o cliente e útil para a operação.
+              A ideia é simples: resolver o problema do cliente com uma solução
+              clara, funcional e coerente com o negócio, sem complicar o que
+              pode ser bem organizado.
             </p>
             <PrimaryLink to="/servicos">Conhecer serviços e planos</PrimaryLink>
           </div>
@@ -1095,8 +1095,9 @@ function FinalCta({
           <Eyebrow>Vamos construir algo profissional</Eyebrow>
           <h2>{title}</h2>
           <p>
-            Conte o que seu negócio precisa. Eu ajudo a transformar a ideia em
-            uma solução clara, funcional e com acabamento de verdade.
+            Conte o que seu negócio precisa e como a operação funciona hoje. Eu
+            te ajudo a entender o melhor caminho e propor uma solução funcional,
+            clara e bem pensada.
           </p>
         </div>
         <div>
