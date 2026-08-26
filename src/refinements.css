@@ -182,6 +182,7 @@ label:focus-within input,label:focus-within select,label:focus-within textarea{b
 
 @keyframes hero-enter{from{opacity:0;transform:translate3d(0,15px,0)}to{opacity:1;transform:translate3d(0,0,0)}}
 @keyframes hero-symbol-float{0%,100%{transform:translate3d(var(--hero-shift-x),var(--hero-shift-y),0)}50%{transform:translate3d(var(--hero-shift-x),calc(var(--hero-shift-y) - 7px),0)}}
+@keyframes hero-symbol-float-mobile{0%,100%{transform:translate3d(-50%,var(--hero-shift-y),0)}50%{transform:translate3d(-50%,calc(var(--hero-shift-y) - 7px),0)}}
 @keyframes orbit-breathe{0%,100%{opacity:.72;transform:scale(1)}50%{opacity:1;transform:scale(1.008)}}
 @keyframes grid-drift{to{background-position:72px 36px}}
 
@@ -206,6 +207,11 @@ label:focus-within input,label:focus-within select,label:focus-within textarea{b
   .reveal-item,.reveal-item.reveal-visible{opacity:1!important;transform:none!important;will-change:auto!important}
   .button:after{display:none}
   .project-visual>img,.project-card--image>img,.case-cover img,.case-gallery figure img{transform:none!important;filter:none!important;will-change:auto!important}
+}
+
+@media(max-width:768px){
+  .tech-canvas{transform:translateX(-2%)}
+  .tech-canvas>img{animation-name:hero-symbol-float-mobile}
 }
 
 /* Cursor em seta: SVG local, hotspot na ponta e fallback nativo explícito. */
