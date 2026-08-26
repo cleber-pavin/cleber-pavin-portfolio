@@ -42,19 +42,19 @@ function Brand({ footer = false }: { footer?: boolean }) {
     <Link
       to="/"
       className={`brand brand--official ${footer ? "brand--footer" : ""}`}
-      aria-label="Cleber Pavin — início"
+      aria-label="Cleber Pavin, início"
     >
       {footer ? (
         <img
           src={logoFooterWhite}
-          alt="Cleber Pavin — Tecnologia & Desenvolvimento"
+          alt="Cleber Pavin, Tecnologia & Desenvolvimento"
         />
       ) : (
         <picture>
           <source media="(max-width: 768px)" srcSet={logoIconOfficial} />
           <img
             src={logoHeaderOfficial}
-            alt="Cleber Pavin — Tecnologia & Desenvolvimento"
+            alt="Cleber Pavin, Tecnologia & Desenvolvimento"
           />
         </picture>
       )}
@@ -457,7 +457,7 @@ function Projects() {
             Soluções criadas para <span>situações reais.</span>
           </>
         }
-        text="Projetos organizados como cases: contexto, objetivo e solução — com transparência sobre o que foi desenvolvido."
+        text="Projetos organizados como cases: contexto, objetivo e solução. Com transparência sobre o que foi desenvolvido."
       />
       <section className="section">
         <div className="container">
@@ -789,7 +789,7 @@ function Segments() {
             Tecnologia que parte da <span>realidade do seu negócio.</span>
           </>
         }
-        text="Encontre caminhos possíveis para seu segmento. Cada combinação é avaliada e personalizada — não existe pacote pronto para tudo."
+        text="Encontre caminhos possíveis para seu segmento. Cada combinação é avaliada e personalizada. Não existe pacote pronto para tudo."
       />
       <section className="section">
         <div className="container segment-grid">
@@ -843,7 +843,7 @@ function About() {
           <div className="about-brand">
             <img
               src={logoOriginal}
-              alt="Logo Cleber Pavin — Tecnologia & Desenvolvimento"
+              alt="Logo Cleber Pavin, Tecnologia & Desenvolvimento"
             />
           </div>
           <div className="about-copy">
@@ -1151,7 +1151,7 @@ function PageEffects() {
       ? `${project.name} | Cleber Pavin`
       : route
         ? `${labels[route] || "Projeto"} | Cleber Pavin`
-        : "Cleber Pavin — Tecnologia & Desenvolvimento";
+        : "Cleber Pavin | Tecnologia & Desenvolvimento";
   }, [location.pathname]);
   useEffect(() => {
     const reducedMotion = window.matchMedia(

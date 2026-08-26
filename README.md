@@ -1,4 +1,4 @@
-# Cleber Pavin — Tecnologia & Desenvolvimento
+# Cleber Pavin | Tecnologia & Desenvolvimento
 
 Site profissional e portfólio de Cleber Pavin, com apresentação de projetos, serviços, segmentos atendidos e solicitação de orçamento pelo WhatsApp.
 
