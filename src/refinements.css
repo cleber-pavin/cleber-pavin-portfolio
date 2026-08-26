@@ -214,6 +214,12 @@ label:focus-within input,label:focus-within select,label:focus-within textarea{b
   .tech-canvas>img{animation-name:hero-symbol-float-mobile}
 }
 
+.tech-canvas>img{left:50%;transform:translateX(-50%);animation-name:hero-symbol-float-centered}
+.orbit,.orbit-b{left:50%;transform:translateX(-50%);animation-name:orbit-breathe-centered}
+.orbit-b{animation-delay:-3.5s}
+@keyframes hero-symbol-float-centered{0%,100%{transform:translate3d(calc(-50% + var(--hero-shift-x)),var(--hero-shift-y),0)}50%{transform:translate3d(calc(-50% + var(--hero-shift-x)),calc(var(--hero-shift-y) - 7px),0)}}
+@keyframes orbit-breathe-centered{0%,100%{opacity:.72;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.008)}}
+
 /* Cursor em seta: SVG local, hotspot na ponta e fallback nativo explícito. */
 @media(hover:hover) and (pointer:fine){
   html,body{cursor:url('./assets/cursor/cursor-tech.svg') 2 1,auto}
