@@ -219,6 +219,26 @@ label:focus-within input,label:focus-within select,label:focus-within textarea{b
 .orbit-b{animation-delay:-3.5s}
 @keyframes hero-symbol-float-centered{0%,100%{transform:translate3d(calc(-50% + var(--hero-shift-x)),var(--hero-shift-y),0)}50%{transform:translate3d(calc(-50% + var(--hero-shift-x)),calc(var(--hero-shift-y) - 7px),0)}}
 @keyframes orbit-breathe-centered{0%,100%{opacity:.72;transform:translateX(-50%) scale(1)}50%{opacity:1;transform:translateX(-50%) scale(1.008)}}
+.orbit{top:50%;width:430px;height:430px;transform:translate(-50%,-50%)}
+.orbit-b{top:50%;width:340px;height:340px;transform:translate(-50%,-50%)}
+.tech-canvas>img{top:50%;width:340px;height:340px;transform:translate(-50%,-50%)}
+@media(max-width:1024px){
+  .orbit{width:350px;height:350px}
+  .orbit-b{width:280px;height:280px}
+  .tech-canvas>img{width:270px;height:270px}
+}
+@media(max-width:768px){
+  .orbit{width:260px;height:260px}
+  .orbit-b{width:230px;height:230px}
+  .tech-canvas>img{width:230px;height:230px}
+}
+@media(max-width:520px){
+  .orbit{width:220px;height:220px}
+  .orbit-b{width:200px;height:200px}
+  .tech-canvas>img{width:195px;height:195px}
+}
+@keyframes hero-symbol-float-centered{0%,100%,50%{transform:translate3d(calc(-50% + var(--hero-shift-x)),-50%,0)}}
+@keyframes orbit-breathe-centered{0%,100%{opacity:.72;transform:translate(-50%,-50%) scale(1)}50%{opacity:1;transform:translate(-50%,-50%) scale(1.008)}}
 
 /* Cursor em seta: SVG local, hotspot na ponta e fallback nativo explícito. */
 @media(hover:hover) and (pointer:fine){
