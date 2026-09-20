@@ -983,14 +983,13 @@ function Budget() {
               />
             </label>
             <label>
-              Faixa aproximada de investimento <small>(opcional)</small>
-              <select name="Investimento" defaultValue="">
-                <option value="">A combinar conforme o projeto</option>
-                <option>Até R$ 500</option>
-                <option>R$ 600 a R$ 1.000</option>
-                <option>R$ 1.000 a R$ 2.000</option>
-                <option>R$ 2.000 a R$ 3.000</option>
-                <option>Acima de R$ 3.000</option>
+              Escopo do projeto <small>(opcional)</small>
+              <select name="Escopo" defaultValue="">
+                <option value="">A definir conforme a necessidade</option>
+                <option>Projeto simples</option>
+                <option>Projeto intermediário</option>
+                <option>Projeto completo</option>
+                <option>Ainda não defini</option>
               </select>
             </label>
             <button className="button button--whatsapp" type="submit">
