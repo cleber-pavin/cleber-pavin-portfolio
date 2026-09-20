@@ -13,8 +13,6 @@ import logoHeaderOfficial from "./assets/brand/logo-header-cutout.png";
 import logoIconOfficial from "./assets/brand/logo-icon-cutout.png";
 import {
   brand,
-  entryPlans,
-  mainPlans,
   projects,
   segments,
   serviceGroups,
@@ -109,7 +107,7 @@ function Footer() {
         <div>
           <h3>Navegação</h3>
           <Link to="/projetos">Projetos</Link>
-          <Link to="/servicos">Serviços e preços</Link>
+          <Link to="/servicos">Serviços</Link>
           <Link to="/segmentos">Segmentos</Link>
           <Link to="/sobre">Sobre</Link>
         </div>
@@ -372,7 +370,7 @@ function Home() {
               clara, funcional e coerente com o negócio, sem complicar o que
               pode ser bem organizado.
             </p>
-            <PrimaryLink to="/servicos">Conhecer serviços e planos</PrimaryLink>
+            <PrimaryLink to="/servicos">Conhecer serviços</PrimaryLink>
           </div>
           <div className="approach-list">
             {[
@@ -653,49 +651,19 @@ function ProjectDetail() {
   );
 }
 
-function PlanCard({ plan }: { plan: (typeof mainPlans)[number] }) {
-  return (
-    <article
-      className={`plan-card ${"highlight" in plan && plan.highlight ? "plan-card--featured" : ""}`}
-    >
-      {"highlight" in plan && plan.highlight && (
-        <span className="plan-badge">Mais autonomia</span>
-      )}
-      <p>{plan.name}</p>
-      <span className="plan-purpose">{plan.bestFor}</span>
-      <h3>
-        <small>A partir de</small>
-        {plan.price}
-      </h3>
-      <ul>
-        {plan.items.map((i) => (
-          <li key={i}>
-            <Check />
-            {i}
-          </li>
-        ))}
-      </ul>
-      <Link
-        className="button button--outline"
-        to={`/orcamento?plano=${encodeURIComponent(plan.name)}`}
-      >
-        Escolher este plano <Arrow />
-      </Link>
-    </article>
-  );
-}
+
 
 function Services() {
   return (
     <>
       <PageHero
-        eyebrow="Serviços & investimento"
+        eyebrow="Serviços"
         title={
           <>
             Do primeiro catálogo a uma <span>operação completa.</span>
           </>
         }
-        text="Escolha um ponto de partida. O escopo final é ajustado às necessidades, à personalização e à complexidade do projeto."
+        text="Cada projeto é desenvolvido de acordo com as necessidades, objetivos e nível de complexidade de cada cliente."
       />
       <section className="section service-groups">
         <div className="container">
@@ -715,66 +683,22 @@ function Services() {
           ))}
         </div>
       </section>
-      <section className="section pricing pricing--entry">
+      <section className="section custom-budget">
         <div className="container">
           <SectionHead
-            eyebrow="Planos de entrada"
+            eyebrow="Orçamento personalizado"
             title={
               <>
-                Comece com o essencial. <span>Evolua no seu tempo.</span>
+                Projeto sob medida para o <span>seu negócio.</span>
               </>
             }
-            text="A diferença principal está na quantidade de produtos e no nível de apresentação. Compare da esquerda para a direita."
+            text="Cada projeto é desenvolvido de acordo com as necessidades, objetivos e nível de complexidade de cada cliente. Entre em contato para explicar sua ideia e receber um orçamento personalizado."
           />
-          <div className="entry-plans">
-            {entryPlans.map((p, i) => (
-              <article key={p.name}>
-                <span>0{i + 1}</span>
-                <small className="entry-purpose">{p.bestFor}</small>
-                <h3>{p.name}</h3>
-                <b>{p.price}</b>
-                <ul>
-                  {p.items.map((x) => (
-                    <li key={x}>{x}</li>
-                  ))}
-                </ul>
-                <Link to={`/orcamento?plano=${encodeURIComponent(p.name)}`}>
-                  Quero este plano <Arrow />
-                </Link>
-              </article>
-            ))}
+          <div className="custom-budget-cta">
+            <PrimaryLink to="/orcamento">Solicitar orçamento</PrimaryLink>
           </div>
         </div>
       </section>
-      <section className="section pricing">
-        <div className="container">
-          <SectionHead
-            eyebrow="Planos principais"
-            title={
-              <>
-                Estruturas para negócios que <span>querem avançar.</span>
-              </>
-            }
-            text="Valores iniciais para orientar sua decisão. Funcionalidades e integrações são confirmadas após avaliação técnica."
-          />
-          <div className="main-plans">
-            {mainPlans.map((p) => (
-              <PlanCard key={p.name} plan={p} />
-            ))}
-          </div>
-          <div className="price-note">
-            <b>Como funciona o investimento?</b>
-            <p>
-              O valor pode variar conforme quantidade de produtos,
-              funcionalidades, personalização, integrações e complexidade.
-              Quando aplicável, o primeiro ano de hospedagem está incluso;
-              depois há renovação anual. Domínio pode ter custo separado e a
-              hospedagem fica preferencialmente no nome do cliente.
-            </p>
-          </div>
-        </div>
-      </section>
-      <FinalCta title="Não sabe qual plano faz sentido?" />
     </>
   );
 }
@@ -1172,8 +1096,7 @@ function PageEffects() {
       ".approach-grid",
       ".final-cta>.container",
       ".service-groups article",
-      ".entry-plans article",
-      ".plan-card",
+      ".custom-budget",
       ".segment-grid article",
       ".about-grid",
       ".budget-grid",
@@ -1275,7 +1198,7 @@ function PageEffects() {
 
       const tiltItems = Array.from(
         document.querySelectorAll<HTMLElement>(
-          ".project-card,.plan-card,.segment-grid article,.feature-project .project-visual",
+          ".project-card,.segment-grid article,.feature-project .project-visual",
         ),
       );
       tiltItems.forEach((item) => {

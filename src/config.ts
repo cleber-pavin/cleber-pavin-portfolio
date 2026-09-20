@@ -124,21 +124,7 @@ export const projects: Project[] = [
   },
 ]
 
-export const entryPlans = [
-  { name: 'Mini Vitrine', price: 'R$ 100', bestFor: 'Para começar', items: ['1 página', 'Até 5 produtos', 'Imagem, nome e preço', 'WhatsApp e contato'] },
-  { name: 'Vitrine Básica', price: 'R$ 200', bestFor: 'Mais produtos', items: ['Até 10 produtos', 'Descrições curtas', 'Categorias simples', 'WhatsApp por produto', 'Responsivo'] },
-  { name: 'Catálogo Inicial', price: 'R$ 300', bestFor: 'Mais apresentação', items: ['Até 15 produtos', 'Home mais trabalhada', 'Categorias e destaques', 'Promoções visuais'] },
-  { name: 'Catálogo Econômico', price: 'R$ 400', bestFor: 'Identidade própria', items: ['Até 20 produtos', 'Identidade personalizada', 'Categorias e descrições', 'Informações completas da loja'] },
-  { name: 'Catálogo Plus', price: 'R$ 500', bestFor: 'Mais organização', items: ['Até 40 produtos', 'Página de produto', 'Categorias e promoções', 'Acabamento refinado'] },
-]
 
-export const mainPlans = [
-  { name: 'Essencial', price: 'R$ 600', bestFor: 'Catálogo profissional', items: ['Até 40 produtos', 'Fotos, preços e descrições', 'Categorias e WhatsApp', 'Responsivo'] },
-  { name: 'Profissional', price: 'R$ 900', bestFor: 'Catálogo com busca', items: ['Tudo do Essencial', 'Busca e filtros', 'Destaques', 'Promoções'] },
-  { name: 'Completo', price: 'R$ 1.400', bestFor: 'Autonomia para gerenciar', items: ['Tudo do Profissional', 'Painel administrativo', 'Gestão de produtos', 'Fotos e categorias'], highlight: true },
-  { name: 'Avançado', price: 'R$ 2.000', bestFor: 'Operação e controle', items: ['Tudo do Completo', 'Estoque e pedidos', 'Clientes e cupons', 'Status e relatórios'] },
-  { name: 'Premium / E-commerce', price: 'R$ 2.800', bestFor: 'Venda online completa', items: ['Tudo do Avançado', 'Carrinho e checkout', 'Pix/cartão e frete', 'Gestão completa'] },
-]
 
 export const segments = [
   { name: 'Barbearias', problem: 'Agenda manual e atendimento disperso.', solution: 'Serviços, barbeiros, horários e gestão organizados.', type: 'Site + agendamento' },
