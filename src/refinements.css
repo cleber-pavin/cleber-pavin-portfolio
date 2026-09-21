@@ -1,5 +1,23 @@
 /* Refinamentos da segunda rodada: portfólio real, comparação e segmentos. */
 .brand--official{display:block;line-height:0}
+
+.service-differentiators{padding:85px 0}
+.differentiators-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px}
+.differentiators-grid article{padding:25px;border:1px solid var(--line);background:var(--surface);border-radius:8px;transition:border-color .2s,box-shadow .2s}
+.differentiators-grid article:hover{border-color:rgba(84,159,255,.4);box-shadow:0 12px 32px rgba(0,0,0,.15)}
+.differentiators-grid b{display:block;font-size:15px;color:#eaf2ff;margin-bottom:8px}
+.differentiators-grid p{margin:0;color:#98a9bf;font-size:13px;line-height:1.6}
+.required{color:#ff6b6b;margin-left:4px}
+
+@media(max-width:1024px){
+  .differentiators-grid{grid-template-columns:repeat(2,1fr);gap:25px}
+}
+
+@media(max-width:768px){
+  .service-differentiators{padding:70px 0}
+  .differentiators-grid{grid-template-columns:1fr}
+  .differentiators-grid article{padding:20px}
+}
 .brand--official picture{display:block;line-height:0}
 .brand--official img{width:225px;height:60px;object-fit:contain;filter:none}
 .brand--footer img{width:255px;height:66px;object-position:left center}

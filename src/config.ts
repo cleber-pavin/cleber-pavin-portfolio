@@ -31,12 +31,12 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: 'caixa-forte', name: 'Caixa Forte', segment: 'Gestão financeira', category: 'Sistemas', solutionType: 'Plataforma SaaS',
-    description: 'Plataforma SaaS para gestão de clientes, contratos, parcelas, recebimentos e despesas, com arquitetura multiempresa e painel administrativo.',
-    overview: 'Um sistema completo em produção para pequenos negócios que precisam organizar a operação financeira de forma clara e segura.',
+    slug: 'caixa-forte', name: 'Caixa Forte', segment: 'Gestão financeira', category: 'Sistemas', solutionType: 'Plataforma SaaS em produção',
+    description: 'SaaS completo para gestão de clientes, contratos, parcelas, recebimentos e despesas. Arquitetura multiempresa, painel administrativo, notificações WhatsApp e PWA. Em produção servindo negócios reais.',
+    overview: 'Um sistema completo em produção para pequenos negócios que precisam organizar a operação financeira de forma clara, segura e centralizada.',
     challenge: 'Centralizar clientes, contratos, cobranças, recebimentos e despesas em uma única plataforma com controle por empresa, sem perder precisão nos valores.',
-    solution: 'Uma aplicação full-stack com autenticação, arquitetura multiempresa, dashboard, módulos financeiros, notificações via WhatsApp e PWA.',
-    features: ['Gestão de clientes e contratos', 'Controle de parcelas e recebimentos', 'Despesas e relatórios financeiros', 'Painel administrativo multiempresa'],
+    solution: 'Aplicação full-stack com autenticação, arquitetura multiempresa, dashboard, módulos financeiros, notificações via WhatsApp e PWA instalável.',
+    features: ['Gestão de clientes e contratos', 'Controle de parcelas e contas a receber', 'Despesas e relatórios financeiros', 'Painel administrativo multiempresa', 'Notificações automáticas via WhatsApp', 'PWA: funciona como app no celular'],
     technologies: ['React', 'TypeScript', 'Vite', 'Appwrite', 'Cloudflare', 'PWA'],
     featured: true, cover: '/projects/caixa-forte-dashboard.webp', coverAlt: 'Dashboard administrativo real da plataforma Caixa Forte',
     gallery: [
@@ -47,12 +47,12 @@ export const projects: Project[] = [
     demoUrl: 'https://usecaixaforte.com.br',
   },
   {
-    slug: 'barber-noir', name: 'Barber Noir', segment: 'Barbearias', category: 'Sistemas', solutionType: 'Sistema completo de gestão',
-    description: 'Sistema full-stack para gestão de barbearias com agendamentos, autenticação, painel administrativo e operação financeira.',
+    slug: 'barber-noir', name: 'Barber Noir', segment: 'Barbearias', category: 'Sistemas', solutionType: 'Sistema completo de gestão (full-stack)',
+    description: 'Sistema full-stack para gestão de barbearias: agendamentos, autenticação por perfil, painel administrativo de 16 páginas, módulo financeiro com comissões e integração Mercado Pago. PostgreSQL + Supabase + Cloudflare Workers.',
     overview: 'Uma plataforma completa que conecta o site público da barbearia ao painel de gestão diária, com autenticação por perfil, regras de negócio no servidor e persistência em banco de dados.',
     challenge: 'Organizar agendamentos, profissionais, clientes e rotinas financeiras em uma única plataforma com dados persistidos e segurança por perfil.',
-    solution: 'Uma aplicação full-stack com acesso público, autenticação, painel administrativo de 16 páginas, módulo financeiro e integração com Mercado Pago.',
-    features: ['Agendamento e agenda operacional', 'Painel administrativo completo', 'Gestão financeira e comissões', 'Autenticação e controle por perfil'],
+    solution: 'Aplicação full-stack com acesso público, autenticação, painel administrativo de 16 páginas, módulo financeiro e integração com Mercado Pago.',
+    features: ['Agendamento online e agenda operacional', 'Painel administrativo completo (16 páginas)', 'Gestão financeira, comissões e repasses', 'Autenticação e controle de acesso por perfil', 'Integração Mercado Pago', 'PostgreSQL + Supabase + Workers'],
     technologies: ['React', 'TypeScript', 'Vite', 'Supabase', 'PostgreSQL', 'Cloudflare Workers'],
     featured: true, cover: '/projects/barber-noir-home.jpg', coverAlt: 'Página pública real do sistema Barber Noir',
     gallery: [
@@ -63,11 +63,11 @@ export const projects: Project[] = [
     demoUrl: 'https://barber-noir.jimmykratos-cp.workers.dev/',
   },
   {
-    slug: 'nova-imports', name: 'NOVA Imports', segment: 'Comércio', category: 'E-commerce', solutionType: 'E-commerce demonstrativo',
-    description: 'Storefront responsivo com jornada de compra completa e painel administrativo local.',
+    slug: 'nova-imports', name: 'NOVA Imports', segment: 'Comércio', category: 'E-commerce', solutionType: 'E-commerce demonstrativo com painel admin',
+    description: 'Storefront responsivo com jornada de compra completa: busca, filtros, favoritos, carrinho, cupons, checkout simulado. Painel administrativo com persistência local.',
     overview: 'Uma demonstração de e-commerce que combina apresentação editorial, descoberta de produtos e autonomia administrativa no navegador.',
     challenge: 'Apresentar um catálogo amplo com clareza e simular uma jornada comercial completa sem processar pagamentos ou dados pessoais reais.',
-    solution: 'Uma experiência responsiva com busca, filtros, favoritos, carrinho, cupons, checkout simulado e painel administrativo persistido localmente.',
+    solution: 'Experiência responsiva com busca, filtros, favoritos, carrinho, cupons, checkout simulado e painel administrativo persistido localmente.',
     features: ['Busca, filtros e favoritos', 'Carrinho, cupons e checkout simulado', 'Painel administrativo', 'Persistência em localStorage'],
     technologies: ['React', 'TypeScript', 'Vite', 'Vitest', 'Playwright'],
     featured: true, cover: '/projects/nova-home-final.jpg', coverAlt: 'Página inicial real do e-commerce NOVA Imports',
@@ -80,8 +80,8 @@ export const projects: Project[] = [
     notice: 'Projeto demonstrativo: o checkout não realiza pagamentos e nenhum dado pessoal real é armazenado em servidor.',
   },
   {
-    slug: 'studio-lumina', name: 'Studio Lumina', segment: 'Beleza & estética', category: 'Agendamento', solutionType: 'Sistema de agendamento',
-    description: 'Jornada enxuta para escolher serviço, profissional e horário, com confirmação pelo WhatsApp.',
+    slug: 'studio-lumina', name: 'Studio Lumina', segment: 'Beleza & estética', category: 'Agendamento', solutionType: 'Sistema de agendamento com WhatsApp',
+    description: 'Jornada enxuta para escolher serviço, profissional e horário, com confirmação automática pelo WhatsApp. Foco em conversão e redução de atrito.',
     overview: 'Uma solução demonstrativa para estúdios de beleza que apresenta a marca e conduz o visitante até um pedido de agendamento organizado.',
     challenge: 'Reduzir o atrito de conversas soltas ao combinar serviços com profissionais, durações e horários disponíveis.',
     solution: 'Um fluxo em etapas que valida serviço, profissional, data, horário e dados antes de preparar a confirmação no WhatsApp.',
@@ -91,8 +91,8 @@ export const projects: Project[] = [
     demoUrl: 'https://sistema-agendamento-studio-lumina-demo.pages.dev/',
   },
   {
-    slug: 'catalogo-inicial', name: 'Catálogo Inicial', segment: 'Pequenos negócios', category: 'Catálogos', solutionType: 'Catálogo comercial',
-    description: 'Uma vitrine organizada para apresentar produtos e transformar interesse em pedido pelo WhatsApp.',
+    slug: 'catalogo-inicial', name: 'Catálogo Inicial', segment: 'Pequenos negócios', category: 'Catálogos', solutionType: 'Catálogo comercial com pedido via WhatsApp',
+    description: 'Vitrine organizada para apresentar produtos e transformar interesse em pedido pelo WhatsApp. 15 produtos, categorias, filtro, contagem de resultados, destaques e mensagens prontas por produto.',
     overview: 'Um catálogo digital demonstrativo pensado para pequenos negócios que precisam vender com clareza sem adotar uma operação complexa.',
     challenge: 'Organizar uma seleção de produtos, destacar ofertas e facilitar o pedido individual em uma experiência leve.',
     solution: 'Uma home comercial responsiva com 15 produtos, categorias, filtro, contagem de resultados, destaques e mensagens prontas por produto.',
@@ -102,8 +102,8 @@ export const projects: Project[] = [
     demoUrl: 'https://catalogo-inicial-300-demo.pages.dev/',
   },
   {
-    slug: 'studiofly', name: 'StudioFly', segment: 'Beleza & serviços', category: 'Sites', solutionType: 'Landing page de conversão',
-    description: 'Apresentação editorial de serviços de beleza com resultados filtráveis e jornada de agendamento.',
+    slug: 'studiofly', name: 'StudioFly', segment: 'Beleza & serviços', category: 'Sites', solutionType: 'Landing page de conversão com galeria filtrável',
+    description: 'Landing page com forte direção visual para valorizar serviços, resultados profissionais e conduzir ao agendamento. Serviços e resultados filtráveis, galeria de trabalhos, apresentação profissional.',
     overview: 'Uma landing page com forte direção visual, criada para valorizar serviços, resultados profissionais e conduzir ao agendamento.',
     challenge: 'Transformar um portfólio visual extenso em uma navegação clara que conduza da descoberta ao contato comercial.',
     solution: 'Uma página responsiva com serviços filtráveis, galeria de resultados, apresentação profissional e formulário de agendamento.',
@@ -112,8 +112,8 @@ export const projects: Project[] = [
     featured: true, cover: '/projects/studiofly-face-protected.jpg', coverAlt: 'Página inicial real da landing page StudioFly',
   },
   {
-    slug: 'urbano-barber', name: 'Urbano Barber', segment: 'Barbearias', category: 'Sites', solutionType: 'Landing page comercial',
-    description: 'Serviços, preços e equipe apresentados com clareza e solicitação validada pelo WhatsApp.',
+    slug: 'urbano-barber', name: 'Urbano Barber', segment: 'Barbearias', category: 'Sites', solutionType: 'Landing page comercial com preços e agendamento',
+    description: 'Landing page para barbearia com serviços, preços e equipe claros. Formulário validado, solicitação via WhatsApp, menu e telefone acessíveis.',
     overview: 'Uma landing page para barbearia que deixa oferta, valores e próximo passo visíveis desde o primeiro acesso.',
     challenge: 'Facilitar a escolha de serviço e profissional, mantendo o agendamento acessível em diferentes telas.',
     solution: 'Uma página responsiva com preços, equipe, validação de formulário, telefone e menu acessível antes do envio ao WhatsApp.',

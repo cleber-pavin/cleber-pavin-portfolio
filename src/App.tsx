@@ -234,11 +234,11 @@ function Home() {
   const solutions = [
     "Sites profissionais",
     "Catálogos digitais",
-    "Sistemas",
-    "Agendamentos",
-    "Gestão",
+    "Sistemas de gestão",
+    "Agendamentos online",
+    "Gestão financeira",
     "Painéis administrativos",
-    "Automações",
+    "Automações comerciais",
     "E-commerce",
   ];
   return (
@@ -247,29 +247,31 @@ function Home() {
         <div className="hero-grid-bg" />
         <div className="container hero-grid">
           <div className="hero-copy">
-            <Eyebrow>Cleber Pavin • Sites, sistemas e automação</Eyebrow>
+            <Eyebrow>Cleber Pavin • Desenvolvimento Web, Sistemas e Automação</Eyebrow>
             <h1>
-              Tecnologia para negócios que precisam <span>vender melhor</span> e
-              operar com mais clareza.
+              Desenvolvimento de sites, sistemas e automações para
+              <span>negócios que precisam vender mais e operar melhor.</span>
             </h1>
             <p>
-              Desenvolvimento de sites, sistemas e automações para empresas que
-              querem profissionalizar a presença digital e organizar a operação.
+              Crio soluções digitais sob medida: sites que convertem, sistemas
+              que organizam a operação e automações que eliminam trabalho manual.
+              Para pequenas e médias empresas que querem profissionalizar o
+              digital sem complexidade desnecessária.
             </p>
             <div className="hero-actions">
               <PrimaryLink to="/orcamento">Solicitar orçamento</PrimaryLink>
               <Link className="text-link" to="/projetos">
-                Ver projetos <Arrow />
+                Ver projetos reais <Arrow />
               </Link>
             </div>
             <div className="hero-proof">
-              <span>WEB</span>
+              <span>Sites que vendem</span>
               <i />
-              <span>PROGRAMAÇÃO</span>
+              <span>Sistemas em produção</span>
               <i />
-              <span>AUTOMAÇÃO</span>
+              <span>Automações que funcionam</span>
               <i />
-              <span>SISTEMAS</span>
+              <span>Código limpo e escalável</span>
             </div>
           </div>
           <TechCanvas />
@@ -660,10 +662,10 @@ function Services() {
         eyebrow="Serviços"
         title={
           <>
-            Do primeiro catálogo a uma <span>operação completa.</span>
+            Do primeiro site a uma <span>operação digital completa.</span>
           </>
         }
-        text="Cada projeto é desenvolvido de acordo com as necessidades, objetivos e nível de complexidade de cada cliente."
+        text="Cada projeto é desenvolvido sob medida: necessidades, objetivos e nível de complexidade definem a solução. Sem pacotes prontos, sem excessos."
       />
       <section className="section service-groups">
         <div className="container">
@@ -681,6 +683,45 @@ function Services() {
               </ul>
             </article>
           ))}
+        </div>
+      </section>
+      <section className="section service-differentiators">
+        <div className="container">
+          <SectionHead
+            eyebrow="Como trabalho"
+            title={
+              <>
+                O que diferencia a <span>entrega.</span>
+              </>
+            }
+            text="Não é só código. É entender o negócio, propor o caminho certo e entregar algo que funcione no dia a dia."
+          />
+          <div className="differentiators-grid">
+            <article>
+              <b>Entendimento do negócio</b>
+              <p>Antes de escrever código, entendo como você vende, atende e opera. A solução nasce daí.</p>
+            </article>
+            <article>
+              <b>Clareza no escopo</b>
+              <p>Defino o que entra, o que não entra e o prazo. Sem surpresas no meio do caminho.</p>
+            </article>
+            <article>
+              <b>Tecnologia certa, não moda</b>
+              <p>Escolho a stack pelo que resolve seu problema, não pelo que está em alta no Twitter.</p>
+            </article>
+            <article>
+              <b>Pensado para manutenção</b>
+              <p>Código limpo, documentado e organizado. Para que você (ou outro dev) consiga dar continuidade.</p>
+            </article>
+            <article>
+              <b>Entrega em etapas</b>
+              <p>Validações parciais, ajustes rápidos e você vê o progresso. Não some por semanas.</p>
+            </article>
+            <article>
+              <b>Suporte pós-entrega</b>
+              <p>O projeto não acaba no deploy. Acompanho a fase inicial de uso e ajustes necessários.</p>
+            </article>
+          </div>
         </div>
       </section>
       <section className="section custom-budget">
@@ -757,10 +798,10 @@ function About() {
         eyebrow="Sobre"
         title={
           <>
-            Tecnologia com visão de <span>negócio e cuidado nos detalhes.</span>
+            Desenvolvimento com visão de <span>negócio e entrega real.</span>
           </>
         }
-        text="Desenvolvimento web, sistemas e automações construídos para serem claros para quem compra e úteis para quem opera."
+        text="Sites, sistemas e automações para pequenos e médios negócios. Foco no que resolve: clareza, usabilidade e código que dá manutenção."
       />
       <section className="section about">
         <div className="container about-grid">
@@ -773,35 +814,34 @@ function About() {
           <div className="about-copy">
             <Eyebrow>Cleber Pavin</Eyebrow>
             <h2>
-              Uma solução profissional começa entendendo o que realmente precisa
-              funcionar.
+              Entendo o negócio antes de escrever código. A solução nasce daí.
             </h2>
             <p>
-              Trabalho com desenvolvimento web, sistemas e automações para
-              pequenos e médios negócios que precisam apresentar melhor seus
-              serviços ou organizar a operação.
+              Desenvolvo sites, sistemas web e automações para pequenos e médios
+              negócios que precisam profissionalizar a presença digital ou
+              organizar a operação.
             </p>
             <p>
-              A experiência com atendimento e vendas online ajuda a olhar além
-              da parte técnica: o projeto precisa ser claro para o cliente,
-              simples no dia a dia e coerente com a realidade do negócio.
+              A experiência com atendimento comercial e vendas online molda o
+              jeito que trabalho: o projeto precisa ser claro para quem compra,
+              simples para quem opera e coerente com a realidade do negócio.
             </p>
             <div className="about-values">
               <div>
-                <b>Clareza</b>
-                <span>Sem complicar o que pode ser simples.</span>
+                <b>Negócio primeiro</b>
+                <span>Tecnologia a serviço do resultado, não o contrário.</span>
               </div>
               <div>
-                <b>Acabamento</b>
-                <span>Cuidado visual em cada ponto de contato.</span>
+                <b>Escopo claro</b>
+                <span>O que entra, o que não entra, o prazo e o custo.</span>
               </div>
               <div>
-                <b>Usabilidade</b>
-                <span>Pensado para pessoas e para o dia a dia.</span>
+                <b>Código sustentável</b>
+                <span>Limpo, organizado, documentado. Para durar e evoluir.</span>
               </div>
               <div>
-                <b>Personalização</b>
-                <span>A solução se adapta ao negócio.</span>
+                <b>Entrega em etapas</b>
+                <span>Validações parciais, ajustes rápidos, sem sumir por semanas.</span>
               </div>
             </div>
             <a
@@ -847,16 +887,16 @@ function Budget() {
             <span>projeto bem resolvido.</span>
           </>
         }
-        text="Preencha as informações abaixo. Ao enviar, uma mensagem organizada será aberta diretamente no WhatsApp."
+        text="Preencha o essencial. Em segundos, uma mensagem organizada abre no WhatsApp — sem cadastro, sem e-mail, sem burocracia."
       />
       <section className="section budget">
         <div className="container budget-grid">
           <aside>
             <Eyebrow>Contato direto</Eyebrow>
-            <h2>Conte um pouco sobre o seu projeto.</h2>
+            <h2>Conte o que você precisa.</h2>
             <p>
-              Não precisa saber todos os detalhes técnicos. As respostas ajudam
-              a entender seu momento e preparar uma conversa mais objetiva.
+              Não precisa saber detalhes técnicos. Suas respostas ajudam a entender
+              o momento do seu negócio e preparar uma conversa mais objetiva.
             </p>
             <a
               className="budget-whatsapp"
@@ -872,13 +912,13 @@ function Budget() {
             </a>
             <div className="budget-steps">
               <span>
-                <b>01</b>Você envia o contexto
+                <b>01</b> Você preenche o formulário
               </span>
               <span>
-                <b>02</b>Avaliamos a necessidade
+                <b>02</b> Abre no WhatsApp pronto para enviar
               </span>
               <span>
-                <b>03</b>Você recebe a orientação
+                <b>03</b> Conversamos e alinhamos o escopo
               </span>
             </div>
           </aside>
@@ -897,7 +937,7 @@ function Budget() {
             )}
             <div className="form-row">
               <label>
-                Nome
+                Nome <span className="required" aria-hidden="true">*</span>
                 <input
                   name="Nome"
                   required
@@ -910,13 +950,13 @@ function Budget() {
                 <input
                   name="Empresa"
                   autoComplete="organization"
-                  placeholder="Nome da empresa"
+                  placeholder="Nome da empresa (opcional)"
                 />
               </label>
             </div>
             <div className="form-row">
               <label>
-                WhatsApp
+                WhatsApp <span className="required" aria-hidden="true">*</span>
                 <input
                   name="WhatsApp"
                   required
@@ -930,65 +970,66 @@ function Budget() {
                 <input
                   name="Segmento"
                   defaultValue={selectedSegment ?? ""}
-                  placeholder="Ex.: loja, clínica, barbearia"
+                  placeholder="Ex.: barbearia, loja, clínica"
                 />
               </label>
             </div>
             <label>
-              Tipo de projeto
+              Tipo de projeto <span className="required" aria-hidden="true">*</span>
               <select name="Tipo de projeto" required defaultValue="">
                 <option value="" disabled>
                   Selecione
                 </option>
-                <option>Site</option>
-                <option>Catálogo / vitrine</option>
-                <option>Sistema</option>
-                <option>Automação</option>
+                <option>Site institucional / landing page</option>
+                <option>Catálogo ou vitrine digital</option>
+                <option>Sistema web / gestão / CRM</option>
+                <option>Agendamento online</option>
+                <option>Automação de processos</option>
                 <option>E-commerce</option>
-                <option>Ainda não sei</option>
+                <option>Ainda não sei definir</option>
               </select>
             </label>
             <label>
-              Funcionalidades desejadas
+              O que o projeto precisa fazer
               <input
-                name="Funcionalidades"
-                placeholder="Ex.: busca, agenda, pedidos, painel..."
+                name="Funcionalidades principais"
+                placeholder="Ex.: agenda, painel, pedidos, login de cliente, relatórios..."
               />
             </label>
             <div className="form-row">
               <label>
                 Possui identidade visual?
                 <select name="Identidade visual">
-                  <option>Sim</option>
-                  <option>Não</option>
+                  <option>Sim, já tenho</option>
+                  <option>Não, preciso criar</option>
                   <option>Em desenvolvimento</option>
                 </select>
               </label>
               <label>
                 Possui domínio?
                 <select name="Domínio">
-                  <option>Não</option>
-                  <option>Sim</option>
+                  <option>Não, preciso registrar</option>
+                  <option>Sim, já tenho</option>
                   <option>Não sei</option>
                 </select>
               </label>
             </div>
             <label>
-              Descrição do projeto
+              Descreva seu projeto <span className="required" aria-hidden="true">*</span>
               <textarea
-                name="Descrição"
+                name="Descrição do projeto"
                 required
-                rows={5}
-                placeholder="O que você quer criar ou melhorar?"
+                rows={4}
+                placeholder="O que você quer criar ou melhorar? Qual o problema atual?"
               />
             </label>
             <label>
-              Escopo do projeto <small>(opcional)</small>
-              <select name="Escopo" defaultValue="">
-                <option value="">A definir conforme a necessidade</option>
-                <option>Projeto simples</option>
-                <option>Projeto intermediário</option>
-                <option>Projeto completo</option>
+              Escopo estimado <small>(opcional)</small>
+              <select name="Escopo estimado" defaultValue="">
+                <option value="">A definir conforme a conversa</option>
+                <option>Projeto simples (1–2 semanas)</option>
+                <option>Projeto intermediário (3–6 semanas)</option>
+                <option>Projeto completo (2+ meses)</option>
                 <option>Ainda não defini</option>
               </select>
             </label>
@@ -996,7 +1037,7 @@ function Budget() {
               Enviar pelo WhatsApp <WhatsApp />
             </button>
             <p className="form-note">
-              Nenhum dado é armazenado neste site. O envio acontece pelo
+              Nenhum dado é armazenado neste site. O envio acontece 100% pelo
               WhatsApp.
             </p>
           </form>
