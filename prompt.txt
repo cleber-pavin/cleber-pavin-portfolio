@@ -13,11 +13,11 @@ WEB • PROGRAMAÇÃO • AUTOMAÇÃO • SISTEMAS
 CONTATO OFICIAL:
 
 WhatsApp / telefone:
-(11) 97055-2867
++55 (11) 94074-8668
 
 Número em formato internacional para links:
 
-5511970552867
+5511940748668
 
 ==================================================
 LOCALIZAÇÃO DA LOGO OFICIAL
@@ -183,13 +183,13 @@ NÃO deixar espaço visual reservado para redes inexistentes.
 Meu contato principal nesta fase é:
 
 WhatsApp / telefone:
-(11) 97055-2867
++55 (11) 94074-8668
 
 Usar esse contato em todos os locais onde fizer sentido.
 
 Para links do WhatsApp usar:
 
-5511970552867
+5511940748668
 
 com URL e mensagem corretamente codificadas.
 
@@ -951,7 +951,7 @@ SEM BACKEND.
 Ao enviar:
 montar uma mensagem organizada para o meu WhatsApp:
 
-5511970552867
+5511940748668
 
 A mensagem deve trazer os dados preenchidos de maneira legível.
 
@@ -961,11 +961,11 @@ WHATSAPP / CONTATO
 
 Meu contato oficial é:
 
-(11) 97055-2867
++55 (11) 94074-8668
 
 Formato para links:
 
-5511970552867
+5511940748668
 
 Este deve ser o principal canal de conversão do site.
 
@@ -1025,7 +1025,7 @@ Criar footer profissional com:
 - navegação principal;
 - serviços principais;
 - contato:
-  (11) 97055-2867
+  +55 (11) 94074-8668
 - WhatsApp;
 - assinatura da marca;
 - direitos autorais.
@@ -1236,10 +1236,10 @@ Centralizar:
 Contato oficial:
 
 display:
-(11) 97055-2867
++55 (11) 94074-8668
 
 WhatsApp:
-5511970552867
+5511940748668
 
 Não espalhar essas informações pelo código.
 
@@ -1477,9 +1477,9 @@ Confirmar também:
 - nenhuma rede social inexistente foi adicionada;
 - nenhum placeholder de rede social existe;
 - o número exibido é:
-  (11) 97055-2867
+  +55 (11) 94074-8668
 - os links usam:
-  5511970552867
+  5511940748668
 
 Executar:
 

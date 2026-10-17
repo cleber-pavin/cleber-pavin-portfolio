@@ -2,8 +2,8 @@ export const brand = {
   name: 'Cleber Pavin',
   signature: 'Tecnologia & Desenvolvimento',
   position: 'Web • Programação • Automação • Sistemas',
-  phoneDisplay: '(11) 97055-2867',
-  whatsapp: '5511970552867',
+  phoneDisplay: '+55 (11) 94074-8668',
+  whatsapp: '5511940748668',
 }
 
 export const whatsappUrl = (message = 'Olá, Cleber! Quero conversar sobre um projeto.') =>

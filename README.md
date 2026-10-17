@@ -36,5 +36,5 @@ npm run build
 
 ## Contato
 
-WhatsApp: (11) 97055-2867
+WhatsApp: +55 (11) 94074-8668
 
