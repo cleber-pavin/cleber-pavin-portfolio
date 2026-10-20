@@ -256,7 +256,7 @@ function Home() {
           <div className="hero-copy">
             <Eyebrow>Cleber Pavin • Desenvolvimento Web, Sistemas e Automação</Eyebrow>
             <h1>
-              Desenvolvimento de sites, sistemas e automações para negócios que
+              Desenvolvimento de sites, sistemas e automações para negócios{" "}
               <span>precisam vender mais e operar melhor.</span>
             </h1>
             <p>
