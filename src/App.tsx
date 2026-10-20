@@ -256,8 +256,8 @@ function Home() {
           <div className="hero-copy">
             <Eyebrow>Cleber Pavin • Desenvolvimento Web, Sistemas e Automação</Eyebrow>
             <h1>
-              Desenvolvimento de sites, sistemas e automações para
-              <span>negócios que precisam vender mais e operar melhor.</span>
+              Desenvolvimento de sites, sistemas e automações para negócios que
+              <span>precisam vender mais e operar melhor.</span>
             </h1>
             <p>
               Crio soluções digitais sob medida: sites que convertem, sistemas
@@ -328,7 +328,7 @@ function Home() {
                   <div className="project-copy">
                     <p className="tag">
                       {p.segment} · {p.solutionType}
-                      {p.production ? " · Em produção" : " · Demonstração"}
+                      {p.badge ? p.badge : p.production ? " · Em produção" : " · Demonstração"}
                     </p>
                     <h3>{p.name}</h3>
                     <p>{p.description}</p>

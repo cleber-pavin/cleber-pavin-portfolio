@@ -28,6 +28,7 @@ export type Project = {
   gallery?: { src: string; alt: string; mobile?: boolean }[]
   demoUrl?: string
   notice?: string
+  badge?: string
 }
 
 export const projects: Project[] = [
@@ -81,7 +82,7 @@ export const projects: Project[] = [
     overview: 'Uma demonstração de e-commerce que combina apresentação editorial, descoberta de produtos e autonomia administrativa no navegador.',
     challenge: 'Apresentar um catálogo amplo com clareza e simular uma jornada comercial completa sem processar pagamentos ou dados pessoais reais.',
     solution: 'Experiência responsiva com busca, filtros, favoritos, carrinho, cupons, checkout simulado e painel administrativo persistido localmente.',
-    features: ['Busca, filtros e favoritos', 'Carrinho, cupons e checkout simulado', 'Painel administrativo', 'Persistência em localStorage'],
+    features: ['Busca, filtros e favoritos', 'Carrinho, cupons e checkout simulado', 'Painel administrativo', 'Armazenamento local de dados'],
     technologies: ['React', 'TypeScript', 'Vite', 'Vitest', 'Playwright'],
     featured: true, production: false, cover: '/projects/nova-home-final.jpg', coverAlt: 'Página inicial real do e-commerce NOVA Imports',
     gallery: [
@@ -122,8 +123,7 @@ export const projects: Project[] = [
     solution: 'Uma página responsiva com serviços filtráveis, galeria de resultados, apresentação profissional e formulário de agendamento.',
     features: ['Serviços e resultados filtráveis', 'Galeria de trabalhos', 'Apresentação profissional', 'Formulário de agendamento'],
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    featured: true, production: false, cover: '/projects/studiofly-face-protected.jpg', coverAlt: 'Página inicial real da landing page StudioFly',
-    demoUrl: 'https://cleber-pavin.github.io/studiofly-demo/',
+    featured: true, production: false, badge: 'Projeto desenvolvido', cover: '/projects/studiofly-face-protected.jpg', coverAlt: 'Página inicial real da landing page StudioFly',
   },
   {
     slug: 'urbano-barber', name: 'Urbano Barber', segment: 'Barbearias', category: 'Sites', solutionType: 'Landing page comercial com preços e agendamento',
