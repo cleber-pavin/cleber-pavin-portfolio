@@ -6,7 +6,7 @@ export const brand = {
   whatsapp: '5511940748668',
 }
 
-export const whatsappUrl = (message = 'Olá, Cleber! Quero conversar sobre um projeto.') =>
+export const whatsappUrl = (message = 'Olá, Cleber! Conheci seu portfólio e gostaria de solicitar um orçamento para desenvolver um projeto.') =>
   `https://wa.me/${brand.whatsapp}?text=${encodeURIComponent(message)}`
 
 export type Project = {
@@ -22,6 +22,7 @@ export type Project = {
   features: string[]
   technologies: string[]
   featured?: boolean
+  production?: boolean
   cover?: string
   coverAlt?: string
   gallery?: { src: string; alt: string; mobile?: boolean }[]
@@ -31,6 +32,18 @@ export type Project = {
 
 export const projects: Project[] = [
   {
+    slug: 'tecos', name: 'TecOS', segment: 'Assistências técnicas', category: 'Sistemas', solutionType: 'Plataforma SaaS em produção',
+    description: 'SaaS multiempresa para gestão de assistências técnicas: atendimento, ordens de serviço, bancada, estoque, financeiro, caixa, relatórios, agenda, garantias e comissões. Autenticação, controle de acesso por perfil, PWA e acompanhamento público de ordem por link.',
+    overview: 'Uma plataforma completa em produção que cobre a rotina da assistência técnica, da entrada do aparelho até o controle do caixa, com dados centralizados e acesso por perfil.',
+    challenge: 'Organizar atendimento, ordens de serviço, bancada, estoque e financeiro em um único sistema multiempresa, com rastreabilidade de operação e segurança por perfil de acesso.',
+    solution: 'Aplicação full-stack com autenticação, controle de acesso por perfil, módulos operacionais e financeiros, painel administrativo multiempresa, acompanhamento público de ordens por link e PWA instalável.',
+    features: ['Ordens de serviço com fluxo completo', 'Atendimento rápido e bancada (kanban)', 'Estoque, compras e fornecedores', 'Financeiro, caixa, comissões e relatórios', 'Controle de acesso por perfil e multiempresa', 'Acompanhamento público de ordem por link'],
+    technologies: ['React', 'TypeScript', 'Vite', 'Tailwind CSS', 'Supabase', 'PostgreSQL', 'PWA'],
+    featured: true, production: true, cover: '/projects/tecos-home.jpg', coverAlt: 'Página inicial real da plataforma TecOS',
+    demoUrl: 'https://tecos-prod.pages.dev/',
+    notice: 'Plataforma comercial em produção. O painel exige conta; o site público inclui um tour interativo do produto.',
+  },
+  {
     slug: 'caixa-forte', name: 'Caixa Forte', segment: 'Gestão financeira', category: 'Sistemas', solutionType: 'Plataforma SaaS em produção',
     description: 'SaaS completo para gestão de clientes, contratos, parcelas, recebimentos e despesas. Arquitetura multiempresa, painel administrativo, notificações WhatsApp e PWA. Em produção servindo negócios reais.',
     overview: 'Um sistema completo em produção para pequenos negócios que precisam organizar a operação financeira de forma clara, segura e centralizada.',
@@ -38,7 +51,7 @@ export const projects: Project[] = [
     solution: 'Aplicação full-stack com autenticação, arquitetura multiempresa, dashboard, módulos financeiros, notificações via WhatsApp e PWA instalável.',
     features: ['Gestão de clientes e contratos', 'Controle de parcelas e contas a receber', 'Despesas e relatórios financeiros', 'Painel administrativo multiempresa', 'Notificações automáticas via WhatsApp', 'PWA: funciona como app no celular'],
     technologies: ['React', 'TypeScript', 'Vite', 'Appwrite', 'Cloudflare', 'PWA'],
-    featured: true, cover: '/projects/caixa-forte-dashboard.webp', coverAlt: 'Dashboard administrativo real da plataforma Caixa Forte',
+    featured: true, production: true, cover: '/projects/caixa-forte-dashboard.webp', coverAlt: 'Dashboard administrativo real da plataforma Caixa Forte',
     gallery: [
       { src: '/projects/caixa-forte-mobile.webp', alt: 'Versão mobile do Caixa Forte', mobile: true },
       { src: '/projects/caixa-forte-parcelas.webp', alt: 'Módulo de parcelas e contas a receber' },
@@ -54,7 +67,7 @@ export const projects: Project[] = [
     solution: 'Aplicação full-stack com acesso público, autenticação, painel administrativo de 16 páginas, módulo financeiro e integração com Mercado Pago.',
     features: ['Agendamento online e agenda operacional', 'Painel administrativo completo (16 páginas)', 'Gestão financeira, comissões e repasses', 'Autenticação e controle de acesso por perfil', 'Integração Mercado Pago', 'PostgreSQL + Supabase + Workers'],
     technologies: ['React', 'TypeScript', 'Vite', 'Supabase', 'PostgreSQL', 'Cloudflare Workers'],
-    featured: true, cover: '/projects/barber-noir-home.jpg', coverAlt: 'Página pública real do sistema Barber Noir',
+    featured: true, production: true, cover: '/projects/barber-noir-home.jpg', coverAlt: 'Página pública real do sistema Barber Noir',
     gallery: [
       { src: '/projects/barber-noir-dashboard.jpg', alt: 'Dashboard administrativo real do Barber Noir' },
       { src: '/projects/barber-noir-agenda.jpg', alt: 'Agenda operacional real do Barber Noir' },
@@ -70,7 +83,7 @@ export const projects: Project[] = [
     solution: 'Experiência responsiva com busca, filtros, favoritos, carrinho, cupons, checkout simulado e painel administrativo persistido localmente.',
     features: ['Busca, filtros e favoritos', 'Carrinho, cupons e checkout simulado', 'Painel administrativo', 'Persistência em localStorage'],
     technologies: ['React', 'TypeScript', 'Vite', 'Vitest', 'Playwright'],
-    featured: true, cover: '/projects/nova-home-final.jpg', coverAlt: 'Página inicial real do e-commerce NOVA Imports',
+    featured: true, production: false, cover: '/projects/nova-home-final.jpg', coverAlt: 'Página inicial real do e-commerce NOVA Imports',
     gallery: [
       { src: '/projects/nova-catalogo-final.jpg', alt: 'Catálogo real com filtros da NOVA Imports' },
       { src: '/projects/nova-produto.jpg', alt: 'Página real de produto da NOVA Imports' },
@@ -87,7 +100,7 @@ export const projects: Project[] = [
     solution: 'Um fluxo em etapas que valida serviço, profissional, data, horário e dados antes de preparar a confirmação no WhatsApp.',
     features: ['Serviço e profissional', 'Data e horário disponíveis', 'Duração por serviço', 'Confirmação via WhatsApp'],
     technologies: ['React', 'TypeScript', 'Vite', 'Vitest', 'Playwright'],
-    featured: true, cover: '/projects/studio-lumina.jpg', coverAlt: 'Página inicial real da demonstração Studio Lumina',
+    featured: true, production: false, cover: '/projects/studio-lumina.jpg', coverAlt: 'Página inicial real da demonstração Studio Lumina',
     demoUrl: 'https://sistema-agendamento-studio-lumina-demo.pages.dev/',
   },
   {
@@ -98,7 +111,7 @@ export const projects: Project[] = [
     solution: 'Uma home comercial responsiva com 15 produtos, categorias, filtro, contagem de resultados, destaques e mensagens prontas por produto.',
     features: ['15 produtos e categorias', 'Filtro e contagem de resultados', 'Destaques e promoções', 'Pedido individual via WhatsApp'],
     technologies: ['React', 'TypeScript', 'Vite', 'Lucide React'],
-    featured: true, cover: '/projects/catalogo-inicial.jpg', coverAlt: 'Página inicial real do Catálogo Inicial',
+    featured: true, production: false, cover: '/projects/catalogo-inicial.jpg', coverAlt: 'Página inicial real do Catálogo Inicial',
     demoUrl: 'https://catalogo-inicial-300-demo.pages.dev/',
   },
   {
@@ -109,7 +122,8 @@ export const projects: Project[] = [
     solution: 'Uma página responsiva com serviços filtráveis, galeria de resultados, apresentação profissional e formulário de agendamento.',
     features: ['Serviços e resultados filtráveis', 'Galeria de trabalhos', 'Apresentação profissional', 'Formulário de agendamento'],
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    featured: true, cover: '/projects/studiofly-face-protected.jpg', coverAlt: 'Página inicial real da landing page StudioFly',
+    featured: true, production: false, cover: '/projects/studiofly-face-protected.jpg', coverAlt: 'Página inicial real da landing page StudioFly',
+    demoUrl: 'https://cleber-pavin.github.io/studiofly-demo/',
   },
   {
     slug: 'urbano-barber', name: 'Urbano Barber', segment: 'Barbearias', category: 'Sites', solutionType: 'Landing page comercial com preços e agendamento',
@@ -119,8 +133,8 @@ export const projects: Project[] = [
     solution: 'Uma página responsiva com preços, equipe, validação de formulário, telefone e menu acessível antes do envio ao WhatsApp.',
     features: ['Serviços, preços e equipe', 'Formulário validado', 'Solicitação via WhatsApp', 'Menu e telefone acessíveis'],
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    cover: '/projects/urbano-barber.jpg', coverAlt: 'Página inicial real da landing page Urbano Barber',
-    demoUrl: 'https://cleber-pavin.github.io/urbano-barber-demo/',
+    production: false, cover: '/projects/urbano-barber.jpg', coverAlt: 'Página inicial real da landing page Urbano Barber',
+    demoUrl: 'https://urbano-barber-demo.pages.dev/',
   },
 ]
 

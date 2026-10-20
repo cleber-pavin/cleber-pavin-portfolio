@@ -1,4 +1,4 @@
-import { FormEvent, ReactNode, useEffect, useState } from "react";
+import { FormEvent, ReactNode, useEffect, useRef, useState } from "react";
 import {
   Link,
   NavLink,
@@ -139,6 +139,13 @@ function Footer() {
         <span>
           © {new Date().getFullYear()} {brand.name}. Todos os direitos
           reservados.
+        </span>
+        <span>
+          Desenvolvido por{" "}
+          <Link to="/" className="footer-signature">
+            {brand.name}
+          </Link>{" "}
+          — {brand.signature}
         </span>
         <span>{brand.position}</span>
       </div>
@@ -321,6 +328,7 @@ function Home() {
                   <div className="project-copy">
                     <p className="tag">
                       {p.segment} · {p.solutionType}
+                      {p.production ? " · Em produção" : " · Demonstração"}
                     </p>
                     <h3>{p.name}</h3>
                     <p>{p.description}</p>
@@ -482,7 +490,9 @@ function Projects() {
                 <img src={p.cover} alt={p.coverAlt} loading="lazy" />
                 <div className="card-top">
                   <span>{String(i + 1).padStart(2, "0")}</span>
-                  <small>Captura real</small>
+                  <small>
+                    {p.production ? "Em produção" : "Demonstração"}
+                  </small>
                 </div>
                 <div>
                   <p className="tag">
@@ -500,6 +510,9 @@ function Projects() {
                       Abrir demonstração <Arrow />
                     </a>
                   )}
+                  <Link to="/orcamento" className="card-quote">
+                    Solicitar orçamento <Arrow />
+                  </Link>
                 </div>
               </article>
             ))}
@@ -1098,8 +1111,13 @@ function NotFound() {
 
 function PageEffects() {
   const location = useLocation();
+  const isFirstRender = useRef(true);
   useEffect(() => {
-    window.scrollTo(0, 0);
+    if (isFirstRender.current) {
+      isFirstRender.current = false;
+    } else {
+      window.scrollTo({ top: 0, behavior: "instant" });
+    }
     const [, route, slug] = location.pathname.split("/");
     const labels: Record<string, string> = {
       projetos: "Projetos",

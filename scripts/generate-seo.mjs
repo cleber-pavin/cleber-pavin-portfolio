@@ -12,6 +12,7 @@ const PAGES = [
 ];
 
 const PROJECT_SLUGS = [
+  'tecos',
   'caixa-forte',
   'barber-noir',
   'nova-imports',

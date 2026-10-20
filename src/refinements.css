@@ -269,3 +269,12 @@ label:focus-within input,label:focus-within select,label:focus-within textarea{b
   a,button,[role="button"],select,summary,label[for],input[type="button"],input[type="submit"],input[type="checkbox"],input[type="radio"]{cursor:url('./assets/cursor/cursor-tech-active.svg') 2 1,pointer}
   input:not([type]),input[type="text"],input[type="email"],input[type="tel"],input[type="search"],input[type="url"],input[type="password"],textarea,[contenteditable="true"]{cursor:text}
 }
+
+/* Assinatura obrigatória no rodapé */
+.footer-bottom{align-items:flex-start;gap:4px 20px}
+.footer-bottom .footer-signature{color:#c8d8ee;font-weight:500}
+.footer-bottom .footer-signature:hover{color:#fff;text-decoration:underline}
+
+/* Badge de status nos cards de projetos */
+.card-top small{text-transform:uppercase;letter-spacing:.7px;font-weight:600;color:#54baff;font-size:9px}
+.card-quote{border-top:1px solid var(--line);margin-top:2px}
